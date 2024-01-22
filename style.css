@@ -1,0 +1,101 @@
+/* Reset some basic elements */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #fff;
+    padding: 20px;
+  }
+  
+  /* Header and navigation styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Button styles */
+  .button {
+    background: #e63946; /* Adjust the color to match the 'Let's Talk' button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #d62828; /* Darker shade for hover state */
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 40px 0;
+  }
+  
+  #intro h1 {
+    font-size: 2.5em;
+    color: #e63946; /* The color for 'wonderful' */
+    margin-bottom: 20px;
+  }
+  
+  #intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Strong tag to emphasize text */
+  strong {
+    color: #333; /* Make this color pop if needed */
+    font-weight: bold;
+  }
+  
+  /* Footer styles */
+  footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 10px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  
